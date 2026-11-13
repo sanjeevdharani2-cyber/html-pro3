@@ -1,10 +1,21 @@
-{
-  "name": "css-selectors-test",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "jest --verbose"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
-}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>CSS Basic Selectors</h1>
+
+    <p>This is an element selector.</p>
+
+    <h2 id="heading">This is an ID selector.</h2>
+
+    <h3 class="text">This is a class selector.</h3>
+
+    <p class="text">Welcome to CSS!</p>
+
+</body>
+</html>
